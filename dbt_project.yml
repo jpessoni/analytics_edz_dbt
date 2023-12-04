@@ -36,4 +36,6 @@ models:
     example:
       +materialized: view
     views:
-      +materialized: view 
+      +materialized: view
+    tables:
+      +materialized: table
